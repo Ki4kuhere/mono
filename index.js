@@ -10,6 +10,6 @@ client.once('ready', () => {
   client.user.setActivity('You need help? DM me');
 });
 
-
+const token = process.env['token']
 // Login to Discord with your client's token
-client.login("OTY3NDAzODAzNjQ3Mjk5NTk0.YmPzAA.wRHfs2qZbLOMJ4l1B0J4jUQjn18");
+client.login(token);
